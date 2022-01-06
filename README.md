@@ -1,4 +1,5 @@
-# survey-form
+# survey-page
+
 Página de formulário feita utilizando CodePen como projeto para o currículo do freeCodeCamp.org
 Form page made using CodePen as project for freeCodeCamp.org curriculum
 
