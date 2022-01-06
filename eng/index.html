@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Surrender Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="title-description"><h1 id="title">FORM TITLE</h1>
+<p id="description">we are not stealing your precious data, I promise</p></div><br><br>
+<div id="form-div">
+<form id="survey-form">
+  <label id="name-label" for="name-label">Name*</label><input id="name" type="text" placeholder="Name" required><br><br>
+  <label id="email-label" for="email-label">E-mail*</label><input id="email" type="email" placeholder="Email" required><br><br>
+  <label id="number-label" for="number-label">Favorite number between 1 and 10*</label><input id="number" type="number" placeholder="Number" min="0" max="10" required><br><br>
+  <label id="rating">Rate this form so far: </label>
+  <select id="dropdown">    
+    <option value=”good”>Good</option>
+    <option value=”great”>Great</option>
+    <option value=”awesome”>Awesome</option>
+    <option value=”outstanding”>Outsanding</option> 
+    <option value=”amazing”>Amazing</option>
+  </select><br><br>
+  <fieldset>
+    <legend>Choose only one</legend>
+    <input id="one" type="radio" name="items" value="one">
+    <label for="one">Your kids</label><br>
+    <input id="two" type="radio" name="items" value="two">
+    <label for="two">Your house</label><br>
+    <input id="three" type="radio" name="items" value="three">
+    <label for="three">Disney land</label>
+  </fieldset><br><br>
+  <fieldset>
+    <legend>Pick your weapon</legend>
+    <input id="stick" type="checkbox" name="items" value="A">
+    <label for="stick">Stick</label><br>
+    <input id="hair-dryer" type="checkbox" name="items" value="B">
+    <label for="hair-dryer">Hair dryer</label><br>
+    <input id="three" type="checkbox" name="items" value="C">
+    <label for="three">Funny jokes</label>
+  </fieldset><br><br>
+  <label>Type your last words here (optional)</label>
+  <textarea placeholder="Any last words?"></textarea><br><br>
+  <button id="submit" type="submit">SUBMIT YOURSELF</button>
+</form>
+</div>
+
+</body>
+</html>

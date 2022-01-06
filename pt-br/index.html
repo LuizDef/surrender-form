@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Rendimento</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="title-description"><h1 id="title">TÍTULO DO FORMULÁRIO</h1>
+<p id="description">não estamos roubando seus dados preciosos, eu prometo</p></div><br><br>
+<div id="form-div">
+<form id="survey-form">
+  <label id="name-label" for="name-label">Nome*</label><input id="name" type="text" placeholder="Name" required><br><br>
+  <label id="email-label" for="email-label">E-mail*</label><input id="email" type="email" placeholder="Email" required><br><br>
+  <label id="number-label" for="number-label">Número favorito entre 1 e 10*</label><input id="number" type="number" placeholder="Number" min="0" max="10" required><br><br>
+  <label id="rating">Avalie este formulário até agora: </label>
+  <select id="dropdown">    
+    <option value=”good”>Bom</option>
+    <option value=”great”>Ótimo</option>
+    <option value=”awesome”>Massa</option>
+    <option value=”outstanding”>Incrível</option> 
+    <option value=”amazing”>Perfeito</option>
+  </select><br><br>
+  <fieldset>
+    <legend>Escolha apenas um</legend>
+    <input id="one" type="radio" name="items" value="one">
+    <label for="one">Seus filhos</label><br>
+    <input id="two" type="radio" name="items" value="two">
+    <label for="two">Sua casa</label><br>
+    <input id="three" type="radio" name="items" value="three">
+    <label for="three">Disneylândia</label>
+  </fieldset><br><br>
+  <fieldset>
+    <legend>Escolha sua arma</legend>
+    <input id="stick" type="checkbox" name="items" value="A">
+    <label for="stick">Graveto</label><br>
+    <input id="hair-dryer" type="checkbox" name="items" value="B">
+    <label for="hair-dryer">Secador de cabelo</label><br>
+    <input id="three" type="checkbox" name="items" value="C">
+    <label for="three">Piadas engraçadas</label>
+  </fieldset><br><br>
+  <label>Escreva suas últimas palavras aqui (opcional)</label>
+  <textarea placeholder="Últimas palavras?"></textarea><br><br>
+  <button id="submit" type="submit">SUBMETER-SE</button>
+</form>
+</div>
+
+</body>
+</html>
