@@ -1,8 +1,8 @@
-# survey-page
+# surrender-form
 
-Página de formulário feita utilizando CodePen como projeto para o currículo do freeCodeCamp.org
+Página de formulário relativamente bem-humorada feita utilizando CodePen como projeto para o currículo do freeCodeCamp.org
 
-Form page made using CodePen as project for freeCodeCamp.org curriculum
+Funny form page made using CodePen as project for freeCodeCamp.org curriculum
 
 ## Utilização (PT-BR)
 Abra o arquivo *index.html* dentro da pasta *pt-br* em seu navegador.
